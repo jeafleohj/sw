@@ -1,0 +1,72 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+dist/
+build/
+.DS_Store
+*.log
+*.lock
+.env
+.env.local
+.env.test
+.env.production
+.env.*.local
+
+# Optional: Cover npm/bundler caches
+.npm/
+.pnpm-store/
+.vscode/
+
+# Logs
+logs/
+*.log
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+jspm_packages/
+lib-cov/
+
+# Coverage directory used by testing frameworks
+coverage/
+
+# TypeScript compiled files
+*.tsbuildinfo
+*.d.ts
+*.d.ts.map
+
+# Optional: Parcel-bundler cache
+.cache/
+
+# Optional: Stylelint cache
+.stylelintcache
+
+# Optional: Build artifacts
+.next/
+out/
+.terraform/
+
+# macOS files
+.DS_Store
+
+# Emacs temporary files
+*~
+\#*\#
+.\#*
+
+# Vim/Neovim swap files and backups
+*.swp
+*.swo
+*.un~
+*.bak
+.session
+
+# Temporary and cache files
+*.tmp
+*.temp
+.cache/
